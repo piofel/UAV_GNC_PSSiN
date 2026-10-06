@@ -11,7 +11,7 @@ function [] = draw_aircraft(x,view_prm)
 
     view_size = view_prm(1);
     view_azimuth = view_prm(2);
-    view_elevation = view_prm(2);
+    view_elevation = view_prm(3);
     view_enabled = view_prm(4);
 
     % define persistent variables
