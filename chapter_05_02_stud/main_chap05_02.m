@@ -33,3 +33,6 @@ make_nominal_flight_parameters
 uav_param = make_uav_parameters();
 uav_trim
 make_wind_parameters
+
+compute_uav_tf_model
+compute_uav_ss_model
