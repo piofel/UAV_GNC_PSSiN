@@ -19,9 +19,6 @@ close all
         compute_uav_ss_model.m
         unwrap_angle_from_180.m
 %}
-proj_root_dir = '../../../';
-addpath(genpath(strcat(proj_root_dir,'common')));
-addpath(genpath(strcat(proj_root_dir,'aircraft_simulators/beard_mclain_simulators/beard_mclain_common')));
 
 clearvars
 
@@ -36,3 +33,4 @@ make_wind_parameters
 
 compute_uav_tf_model
 compute_uav_ss_model
+
